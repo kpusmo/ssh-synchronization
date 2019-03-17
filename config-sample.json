@@ -3,6 +3,6 @@
   "remote_directory": "/path/to/directory/on/remote/to/be/synced",
   "hostname": "remote-address",
   "username": "remote-username",
-  "mode": "one of: overwrite - write all files|update - update existing if date-modified is newer|add_non_existing - add non-existing files|update_and_add - update + add_non_existing",
+  "mode": "one of: overwrite|update|add_non_existing|update_and_add",
   "ignored": ["list/of/ignored/files/as/paths"]
 }
