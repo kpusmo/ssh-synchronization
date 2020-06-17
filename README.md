@@ -6,3 +6,8 @@ Modes:
 - update - update existing if date-modified is newer
 - add_non_existing - add non-existing files
 - update_and_add - update + add_non_existing
+
+# Run
+```bash
+python synchronizer.py
+```
